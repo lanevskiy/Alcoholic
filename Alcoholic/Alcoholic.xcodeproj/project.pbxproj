@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841FA4801E7F31300042C948 /* ALAlcoholCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FA47F1E7F31300042C948 /* ALAlcoholCalculator.swift */; };
+		8459DD731E7F0C9E0005443C /* ALStoredResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8459DD721E7F0C9E0005443C /* ALStoredResult.swift */; };
+		8459DD751E7F20EB0005443C /* ALAlcoholicAssistantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8459DD741E7F20EB0005443C /* ALAlcoholicAssistantTableViewController.swift */; };
 		84C323C31E7F0622004384EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C323C21E7F0622004384EB /* AppDelegate.swift */; };
 		84C323C81E7F0622004384EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C323C61E7F0622004384EB /* Main.storyboard */; };
 		84C323CA1E7F0622004384EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C323C91E7F0622004384EB /* Assets.xcassets */; };
@@ -52,6 +55,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		841FA47F1E7F31300042C948 /* ALAlcoholCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALAlcoholCalculator.swift; sourceTree = "<group>"; };
+		8459DD721E7F0C9E0005443C /* ALStoredResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALStoredResult.swift; sourceTree = "<group>"; };
+		8459DD741E7F20EB0005443C /* ALAlcoholicAssistantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALAlcoholicAssistantTableViewController.swift; sourceTree = "<group>"; };
 		84C323BF1E7F0622004384EB /* Alcoholic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcoholic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C323C21E7F0622004384EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C323C71E7F0622004384EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -104,6 +110,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8459DD6B1E7F0A110005443C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				841FA47F1E7F31300042C948 /* ALAlcoholCalculator.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8459DD6C1E7F0A2D0005443C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8459DD721E7F0C9E0005443C /* ALStoredResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8459DD6D1E7F0A3E0005443C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8459DD741E7F20EB0005443C /* ALAlcoholicAssistantTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		84C323B61E7F0622004384EB = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +158,9 @@
 		84C323C11E7F0622004384EB /* Alcoholic */ = {
 			isa = PBXGroup;
 			children = (
+				8459DD6D1E7F0A3E0005443C /* Controllers */,
+				8459DD6C1E7F0A2D0005443C /* Model */,
+				8459DD6B1E7F0A110005443C /* Core */,
 				84C323C21E7F0622004384EB /* AppDelegate.swift */,
 				84C323C61E7F0622004384EB /* Main.storyboard */,
 				84C323C91E7F0622004384EB /* Assets.xcassets */,
@@ -219,6 +252,7 @@
 		84C323B71E7F0622004384EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AL;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = home;
@@ -310,6 +344,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8459DD731E7F0C9E0005443C /* ALStoredResult.swift in Sources */,
+				841FA4801E7F31300042C948 /* ALAlcoholCalculator.swift in Sources */,
+				8459DD751E7F20EB0005443C /* ALAlcoholicAssistantTableViewController.swift in Sources */,
 				84C323C31E7F0622004384EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
