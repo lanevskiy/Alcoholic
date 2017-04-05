@@ -3,95 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		841FA4801E7F31300042C948 /* ALAlcoholCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FA47F1E7F31300042C948 /* ALAlcoholCalculator.swift */; };
-		8459DD731E7F0C9E0005443C /* ALStoredResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8459DD721E7F0C9E0005443C /* ALStoredResult.swift */; };
-		8459DD751E7F20EB0005443C /* ALAlcoholicAssistantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8459DD741E7F20EB0005443C /* ALAlcoholicAssistantTableViewController.swift */; };
-		84C323C31E7F0622004384EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C323C21E7F0622004384EB /* AppDelegate.swift */; };
-		84C323C81E7F0622004384EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C323C61E7F0622004384EB /* Main.storyboard */; };
-		84C323CA1E7F0622004384EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C323C91E7F0622004384EB /* Assets.xcassets */; };
-		84C323CD1E7F0622004384EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C323CB1E7F0622004384EB /* LaunchScreen.storyboard */; };
-		84C323D81E7F0623004384EB /* AlcoholicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C323D71E7F0623004384EB /* AlcoholicTests.swift */; };
-		84C323E31E7F0623004384EB /* AlcoholicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C323E21E7F0623004384EB /* AlcoholicUITests.swift */; };
-		84C323F21E7F068F004384EB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C323F01E7F068F004384EB /* Realm.framework */; };
-		84C323F31E7F068F004384EB /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84C323F01E7F068F004384EB /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		84C323F41E7F068F004384EB /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C323F11E7F068F004384EB /* RealmSwift.framework */; };
-		84C323F51E7F068F004384EB /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84C323F11E7F068F004384EB /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84877A381E8AF95A004FBE17 /* ALKBottlePack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84877A371E8AF95A004FBE17 /* ALKBottlePack.swift */; };
+		84877A3A1E8AFAF7004FBE17 /* ALKCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84877A391E8AFAF7004FBE17 /* ALKCalculator.swift */; };
+		84F596931E8AE86C002946F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F596921E8AE86C002946F6 /* AppDelegate.swift */; };
+		84F596981E8AE86C002946F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F596961E8AE86C002946F6 /* Main.storyboard */; };
+		84F5969A1E8AE86C002946F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F596991E8AE86C002946F6 /* Assets.xcassets */; };
+		84F5969D1E8AE86C002946F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F5969B1E8AE86C002946F6 /* LaunchScreen.storyboard */; };
+		84F596A81E8AE86C002946F6 /* AlcoholicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F596A71E8AE86C002946F6 /* AlcoholicTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		84C323D41E7F0623004384EB /* PBXContainerItemProxy */ = {
+		84F596A41E8AE86C002946F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 84C323B71E7F0622004384EB /* Project object */;
+			containerPortal = 84F596871E8AE86C002946F6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 84C323BE1E7F0622004384EB;
-			remoteInfo = Alcoholic;
-		};
-		84C323DF1E7F0623004384EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84C323B71E7F0622004384EB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84C323BE1E7F0622004384EB;
+			remoteGlobalIDString = 84F5968E1E8AE86C002946F6;
 			remoteInfo = Alcoholic;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		84C323F61E7F068F004384EB /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				84C323F51E7F068F004384EB /* RealmSwift.framework in Embed Frameworks */,
-				84C323F31E7F068F004384EB /* Realm.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		841FA47F1E7F31300042C948 /* ALAlcoholCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALAlcoholCalculator.swift; sourceTree = "<group>"; };
-		8459DD721E7F0C9E0005443C /* ALStoredResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALStoredResult.swift; sourceTree = "<group>"; };
-		8459DD741E7F20EB0005443C /* ALAlcoholicAssistantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALAlcoholicAssistantTableViewController.swift; sourceTree = "<group>"; };
-		84C323BF1E7F0622004384EB /* Alcoholic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcoholic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84C323C21E7F0622004384EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84C323C71E7F0622004384EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84C323C91E7F0622004384EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84C323CC1E7F0622004384EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84C323CE1E7F0622004384EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84C323D31E7F0623004384EB /* AlcoholicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcoholicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84C323D71E7F0623004384EB /* AlcoholicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoholicTests.swift; sourceTree = "<group>"; };
-		84C323D91E7F0623004384EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84C323DE1E7F0623004384EB /* AlcoholicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcoholicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84C323E21E7F0623004384EB /* AlcoholicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoholicUITests.swift; sourceTree = "<group>"; };
-		84C323E41E7F0623004384EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84C323F01E7F068F004384EB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
-		84C323F11E7F068F004384EB /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		84877A371E8AF95A004FBE17 /* ALKBottlePack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALKBottlePack.swift; sourceTree = "<group>"; };
+		84877A391E8AFAF7004FBE17 /* ALKCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALKCalculator.swift; sourceTree = "<group>"; };
+		84F5968F1E8AE86C002946F6 /* Alcoholic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcoholic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F596921E8AE86C002946F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84F596971E8AE86C002946F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84F596991E8AE86C002946F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F5969C1E8AE86C002946F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84F5969E1E8AE86C002946F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F596A31E8AE86C002946F6 /* AlcoholicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcoholicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F596A71E8AE86C002946F6 /* AlcoholicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoholicTests.swift; sourceTree = "<group>"; };
+		84F596A91E8AE86C002946F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84C323BC1E7F0622004384EB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84C323F41E7F068F004384EB /* RealmSwift.framework in Frameworks */,
-				84C323F21E7F068F004384EB /* Realm.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84C323D01E7F0623004384EB /* Frameworks */ = {
+		84F5968C1E8AE86C002946F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84C323DB1E7F0623004384EB /* Frameworks */ = {
+		84F596A01E8AE86C002946F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -101,105 +58,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8459DD6A1E7F08440005443C /* Frameworks */ = {
+		84877A341E8AF8C8004FBE17 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				84C323F01E7F068F004384EB /* Realm.framework */,
-				84C323F11E7F068F004384EB /* RealmSwift.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8459DD6B1E7F0A110005443C /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				841FA47F1E7F31300042C948 /* ALAlcoholCalculator.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		8459DD6C1E7F0A2D0005443C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				8459DD721E7F0C9E0005443C /* ALStoredResult.swift */,
+				84877A371E8AF95A004FBE17 /* ALKBottlePack.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		8459DD6D1E7F0A3E0005443C /* Controllers */ = {
+		84877A351E8AF8FD004FBE17 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				8459DD741E7F20EB0005443C /* ALAlcoholicAssistantTableViewController.swift */,
+				84877A391E8AFAF7004FBE17 /* ALKCalculator.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		84877A361E8AF92B004FBE17 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		84C323B61E7F0622004384EB = {
+		84F596861E8AE86C002946F6 = {
 			isa = PBXGroup;
 			children = (
-				8459DD6A1E7F08440005443C /* Frameworks */,
-				84C323C11E7F0622004384EB /* Alcoholic */,
-				84C323D61E7F0623004384EB /* AlcoholicTests */,
-				84C323E11E7F0623004384EB /* AlcoholicUITests */,
-				84C323C01E7F0622004384EB /* Products */,
+				84F596911E8AE86C002946F6 /* Alcoholic */,
+				84F596A61E8AE86C002946F6 /* AlcoholicTests */,
+				84F596901E8AE86C002946F6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		84C323C01E7F0622004384EB /* Products */ = {
+		84F596901E8AE86C002946F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84C323BF1E7F0622004384EB /* Alcoholic.app */,
-				84C323D31E7F0623004384EB /* AlcoholicTests.xctest */,
-				84C323DE1E7F0623004384EB /* AlcoholicUITests.xctest */,
+				84F5968F1E8AE86C002946F6 /* Alcoholic.app */,
+				84F596A31E8AE86C002946F6 /* AlcoholicTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84C323C11E7F0622004384EB /* Alcoholic */ = {
+		84F596911E8AE86C002946F6 /* Alcoholic */ = {
 			isa = PBXGroup;
 			children = (
-				8459DD6D1E7F0A3E0005443C /* Controllers */,
-				8459DD6C1E7F0A2D0005443C /* Model */,
-				8459DD6B1E7F0A110005443C /* Core */,
-				84C323C21E7F0622004384EB /* AppDelegate.swift */,
-				84C323C61E7F0622004384EB /* Main.storyboard */,
-				84C323C91E7F0622004384EB /* Assets.xcassets */,
-				84C323CB1E7F0622004384EB /* LaunchScreen.storyboard */,
-				84C323CE1E7F0622004384EB /* Info.plist */,
+				84877A361E8AF92B004FBE17 /* Controllers */,
+				84877A351E8AF8FD004FBE17 /* Core */,
+				84877A341E8AF8C8004FBE17 /* Model */,
+				84F596921E8AE86C002946F6 /* AppDelegate.swift */,
+				84F596961E8AE86C002946F6 /* Main.storyboard */,
+				84F596991E8AE86C002946F6 /* Assets.xcassets */,
+				84F5969B1E8AE86C002946F6 /* LaunchScreen.storyboard */,
+				84F5969E1E8AE86C002946F6 /* Info.plist */,
 			);
 			path = Alcoholic;
 			sourceTree = "<group>";
 		};
-		84C323D61E7F0623004384EB /* AlcoholicTests */ = {
+		84F596A61E8AE86C002946F6 /* AlcoholicTests */ = {
 			isa = PBXGroup;
 			children = (
-				84C323D71E7F0623004384EB /* AlcoholicTests.swift */,
-				84C323D91E7F0623004384EB /* Info.plist */,
+				84F596A71E8AE86C002946F6 /* AlcoholicTests.swift */,
+				84F596A91E8AE86C002946F6 /* Info.plist */,
 			);
 			path = AlcoholicTests;
-			sourceTree = "<group>";
-		};
-		84C323E11E7F0623004384EB /* AlcoholicUITests */ = {
-			isa = PBXGroup;
-			children = (
-				84C323E21E7F0623004384EB /* AlcoholicUITests.swift */,
-				84C323E41E7F0623004384EB /* Info.plist */,
-			);
-			path = AlcoholicUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84C323BE1E7F0622004384EB /* Alcoholic */ = {
+		84F5968E1E8AE86C002946F6 /* Alcoholic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84C323E71E7F0623004384EB /* Build configuration list for PBXNativeTarget "Alcoholic" */;
+			buildConfigurationList = 84F596AC1E8AE86C002946F6 /* Build configuration list for PBXNativeTarget "Alcoholic" */;
 			buildPhases = (
-				84C323BB1E7F0622004384EB /* Sources */,
-				84C323BC1E7F0622004384EB /* Frameworks */,
-				84C323BD1E7F0622004384EB /* Resources */,
-				84C323F61E7F068F004384EB /* Embed Frameworks */,
-				84C323F71E7F06D6004384EB /* ShellScript */,
+				84F5968B1E8AE86C002946F6 /* Sources */,
+				84F5968C1E8AE86C002946F6 /* Frameworks */,
+				84F5968D1E8AE86C002946F6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -207,114 +140,80 @@
 			);
 			name = Alcoholic;
 			productName = Alcoholic;
-			productReference = 84C323BF1E7F0622004384EB /* Alcoholic.app */;
+			productReference = 84F5968F1E8AE86C002946F6 /* Alcoholic.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84C323D21E7F0623004384EB /* AlcoholicTests */ = {
+		84F596A21E8AE86C002946F6 /* AlcoholicTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84C323EA1E7F0623004384EB /* Build configuration list for PBXNativeTarget "AlcoholicTests" */;
+			buildConfigurationList = 84F596AF1E8AE86C002946F6 /* Build configuration list for PBXNativeTarget "AlcoholicTests" */;
 			buildPhases = (
-				84C323CF1E7F0623004384EB /* Sources */,
-				84C323D01E7F0623004384EB /* Frameworks */,
-				84C323D11E7F0623004384EB /* Resources */,
+				84F5969F1E8AE86C002946F6 /* Sources */,
+				84F596A01E8AE86C002946F6 /* Frameworks */,
+				84F596A11E8AE86C002946F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				84C323D51E7F0623004384EB /* PBXTargetDependency */,
+				84F596A51E8AE86C002946F6 /* PBXTargetDependency */,
 			);
 			name = AlcoholicTests;
 			productName = AlcoholicTests;
-			productReference = 84C323D31E7F0623004384EB /* AlcoholicTests.xctest */;
+			productReference = 84F596A31E8AE86C002946F6 /* AlcoholicTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		84C323DD1E7F0623004384EB /* AlcoholicUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84C323ED1E7F0623004384EB /* Build configuration list for PBXNativeTarget "AlcoholicUITests" */;
-			buildPhases = (
-				84C323DA1E7F0623004384EB /* Sources */,
-				84C323DB1E7F0623004384EB /* Frameworks */,
-				84C323DC1E7F0623004384EB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84C323E01E7F0623004384EB /* PBXTargetDependency */,
-			);
-			name = AlcoholicUITests;
-			productName = AlcoholicUITests;
-			productReference = 84C323DE1E7F0623004384EB /* AlcoholicUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		84C323B71E7F0622004384EB /* Project object */ = {
+		84F596871E8AE86C002946F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = AL;
+				CLASSPREFIX = ALK;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = home;
 				TargetAttributes = {
-					84C323BE1E7F0622004384EB = {
+					84F5968E1E8AE86C002946F6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 8CA55PHD76;
 						ProvisioningStyle = Automatic;
 					};
-					84C323D21E7F0623004384EB = {
+					84F596A21E8AE86C002946F6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 8CA55PHD76;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 84C323BE1E7F0622004384EB;
-					};
-					84C323DD1E7F0623004384EB = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 8CA55PHD76;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 84C323BE1E7F0622004384EB;
+						TestTargetID = 84F5968E1E8AE86C002946F6;
 					};
 				};
 			};
-			buildConfigurationList = 84C323BA1E7F0622004384EB /* Build configuration list for PBXProject "Alcoholic" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 84F5968A1E8AE86C002946F6 /* Build configuration list for PBXProject "Alcoholic" */;
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 84C323B61E7F0622004384EB;
-			productRefGroup = 84C323C01E7F0622004384EB /* Products */;
+			mainGroup = 84F596861E8AE86C002946F6;
+			productRefGroup = 84F596901E8AE86C002946F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84C323BE1E7F0622004384EB /* Alcoholic */,
-				84C323D21E7F0623004384EB /* AlcoholicTests */,
-				84C323DD1E7F0623004384EB /* AlcoholicUITests */,
+				84F5968E1E8AE86C002946F6 /* Alcoholic */,
+				84F596A21E8AE86C002946F6 /* AlcoholicTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84C323BD1E7F0622004384EB /* Resources */ = {
+		84F5968D1E8AE86C002946F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84C323CD1E7F0622004384EB /* LaunchScreen.storyboard in Resources */,
-				84C323CA1E7F0622004384EB /* Assets.xcassets in Resources */,
-				84C323C81E7F0622004384EB /* Main.storyboard in Resources */,
+				84F5969D1E8AE86C002946F6 /* LaunchScreen.storyboard in Resources */,
+				84F5969A1E8AE86C002946F6 /* Assets.xcassets in Resources */,
+				84F596981E8AE86C002946F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84C323D11E7F0623004384EB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84C323DC1E7F0623004384EB /* Resources */ = {
+		84F596A11E8AE86C002946F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,78 +222,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		84C323F71E7F06D6004384EB /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		84C323BB1E7F0622004384EB /* Sources */ = {
+		84F5968B1E8AE86C002946F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8459DD731E7F0C9E0005443C /* ALStoredResult.swift in Sources */,
-				841FA4801E7F31300042C948 /* ALAlcoholCalculator.swift in Sources */,
-				8459DD751E7F20EB0005443C /* ALAlcoholicAssistantTableViewController.swift in Sources */,
-				84C323C31E7F0622004384EB /* AppDelegate.swift in Sources */,
+				84F596931E8AE86C002946F6 /* AppDelegate.swift in Sources */,
+				84877A381E8AF95A004FBE17 /* ALKBottlePack.swift in Sources */,
+				84877A3A1E8AFAF7004FBE17 /* ALKCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84C323CF1E7F0623004384EB /* Sources */ = {
+		84F5969F1E8AE86C002946F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84C323D81E7F0623004384EB /* AlcoholicTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84C323DA1E7F0623004384EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84C323E31E7F0623004384EB /* AlcoholicUITests.swift in Sources */,
+				84F596A81E8AE86C002946F6 /* AlcoholicTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		84C323D51E7F0623004384EB /* PBXTargetDependency */ = {
+		84F596A51E8AE86C002946F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84C323BE1E7F0622004384EB /* Alcoholic */;
-			targetProxy = 84C323D41E7F0623004384EB /* PBXContainerItemProxy */;
-		};
-		84C323E01E7F0623004384EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84C323BE1E7F0622004384EB /* Alcoholic */;
-			targetProxy = 84C323DF1E7F0623004384EB /* PBXContainerItemProxy */;
+			target = 84F5968E1E8AE86C002946F6 /* Alcoholic */;
+			targetProxy = 84F596A41E8AE86C002946F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84C323C61E7F0622004384EB /* Main.storyboard */ = {
+		84F596961E8AE86C002946F6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84C323C71E7F0622004384EB /* Base */,
+				84F596971E8AE86C002946F6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		84C323CB1E7F0622004384EB /* LaunchScreen.storyboard */ = {
+		84F5969B1E8AE86C002946F6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84C323CC1E7F0622004384EB /* Base */,
+				84F5969C1E8AE86C002946F6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -402,7 +271,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		84C323E51E7F0623004384EB /* Debug */ = {
+		84F596AA1E8AE86C002946F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -452,7 +321,7 @@
 			};
 			name = Debug;
 		};
-		84C323E61E7F0623004384EB /* Release */ = {
+		84F596AB1E8AE86C002946F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -495,15 +364,11 @@
 			};
 			name = Release;
 		};
-		84C323E81E7F0623004384EB /* Debug */ = {
+		84F596AD1E8AE86C002946F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8CA55PHD76;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = Alcoholic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = home.Alcoholic;
@@ -512,15 +377,11 @@
 			};
 			name = Debug;
 		};
-		84C323E91E7F0623004384EB /* Release */ = {
+		84F596AE1E8AE86C002946F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8CA55PHD76;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = Alcoholic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = home.Alcoholic;
@@ -529,7 +390,7 @@
 			};
 			name = Release;
 		};
-		84C323EB1E7F0623004384EB /* Debug */ = {
+		84F596B01E8AE86C002946F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -544,7 +405,7 @@
 			};
 			name = Debug;
 		};
-		84C323EC1E7F0623004384EB /* Release */ = {
+		84F596B11E8AE86C002946F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -556,77 +417,40 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcoholic.app/Alcoholic";
-			};
-			name = Release;
-		};
-		84C323EE1E7F0623004384EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 8CA55PHD76;
-				INFOPLIST_FILE = AlcoholicUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = home.AlcoholicUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Alcoholic;
-			};
-			name = Debug;
-		};
-		84C323EF1E7F0623004384EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 8CA55PHD76;
-				INFOPLIST_FILE = AlcoholicUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = home.AlcoholicUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Alcoholic;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84C323BA1E7F0622004384EB /* Build configuration list for PBXProject "Alcoholic" */ = {
+		84F5968A1E8AE86C002946F6 /* Build configuration list for PBXProject "Alcoholic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84C323E51E7F0623004384EB /* Debug */,
-				84C323E61E7F0623004384EB /* Release */,
+				84F596AA1E8AE86C002946F6 /* Debug */,
+				84F596AB1E8AE86C002946F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84C323E71E7F0623004384EB /* Build configuration list for PBXNativeTarget "Alcoholic" */ = {
+		84F596AC1E8AE86C002946F6 /* Build configuration list for PBXNativeTarget "Alcoholic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84C323E81E7F0623004384EB /* Debug */,
-				84C323E91E7F0623004384EB /* Release */,
+				84F596AD1E8AE86C002946F6 /* Debug */,
+				84F596AE1E8AE86C002946F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84C323EA1E7F0623004384EB /* Build configuration list for PBXNativeTarget "AlcoholicTests" */ = {
+		84F596AF1E8AE86C002946F6 /* Build configuration list for PBXNativeTarget "AlcoholicTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84C323EB1E7F0623004384EB /* Debug */,
-				84C323EC1E7F0623004384EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84C323ED1E7F0623004384EB /* Build configuration list for PBXNativeTarget "AlcoholicUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84C323EE1E7F0623004384EB /* Debug */,
-				84C323EF1E7F0623004384EB /* Release */,
+				84F596B01E8AE86C002946F6 /* Debug */,
+				84F596B11E8AE86C002946F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 84C323B71E7F0622004384EB /* Project object */;
+	rootObject = 84F596871E8AE86C002946F6 /* Project object */;
 }
